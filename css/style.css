@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+.marg-1{
+    margin-top: -35px;
+}
+.grop , .mg{
+    margin-top: -15px;
+}
+.fiximg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.fix{
+    background-image: url(../images/fix1.jpeg);
+}
+.fix-2{
+    background-image: url(../images/fix2.jpg);
+}
